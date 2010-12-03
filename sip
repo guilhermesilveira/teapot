@@ -1,7 +1,6 @@
 NUMBER=$[ ( $RANDOM % 100 )  + 1 ]
 
 sleep $1
-NUMBER=97
 if [ $NUMBER -gt 95 ]; then
 	say "Baby baby, the tea is ready!"
 fi
